@@ -247,7 +247,7 @@ $databases['default']['default'] = array(
     'password' => $mysql_services[0]['credentials']['password'],
     'host' => $mysql_services[0]['credentials']['hostname'],
     'prefix' => 'drupal_',
-    'collation' => 'utf8_general_ci',
+    'collation' => 'utf8mb4_general_ci',
 );
 
 /**
